@@ -1,0 +1,53 @@
+\documentclass[12pt]{article}
+
+\title{Coca-Cola Stock Forecasting using ARMA Model}
+
+\author{Zach Joachim, Taylor Jones, Trevor Wai, Carson Watkin}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+ The goal of this paper is to \dots
+ \end{abstract}
+
+\section{Problem Statement and Motivation}
+
+Stock forecasting is vital for a company that wants to be successfull and profitable. It helps companies 
+with financial planning, allowing companies to allocate resources efficiently and make imformed decisions 
+about investments and expenditures. It allows companies to identify and mitigate risks associated with a 
+volitile market. Finally, along with many other things, forecasting provides a benchmark for the company's 
+actual performance to be measured against. By comparing the forecasted stock prices with the actual prices, 
+companies can evaluate the effectiveness of their strategies and operations.\par
+Clearly the ability to forecast stock prices and other important quantities is of great use and interest to 
+companies everywhere.
+
+\section{Data}
+
+The Coca-Cola stock price history data came from a dataset on Kaggle's website. The dataset contains 7 quantities 
+indexed by the day of those quantities. These values are the stock's opening price, highesst price point in the day, 
+lowest price point in the day, the closing price of the stock, the volume, dividends, and stock slpits of the 
+stock for the day. Finding data like this was difficult to find for quantites like profits, margins, or quantities 
+for specific drinks that fall under the Coca-Cola umbrella. However, the stock price for a company is a good indicator 
+as to what the values are and where they are heading.\par
+The stock price data reuqired a little cleaning. For about 50\% the data, the index or date for the stock info 
+comes in the form of YYYY-MM-DD, while the other 50\% has the time next to the date, in the same format, 
+YYYY-MM-DD HH:MM:SS-UTC\@. For the purposes of our analysis, we only needed the date, and the format it was in was acceptable, 
+so what we needed to do was delete part of the index that gave the time. To do this, we stripped the index 
+into its list of strings and only kept the part that gave the date, we made this into a new column called \texttt{df['date']}, 
+and deleted the original column.
+
+\section{Results}
+
+\subsection{ARMIA}
+
+\subsection{VARMAX}
+
+\section{Analysis}
+
+\section{Ethical Implications}
+
+\section{Conclusion}
+
+\end{document}
