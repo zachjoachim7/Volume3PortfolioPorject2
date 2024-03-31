@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.8)  30 MAR 2024 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.8)  30 MAR 2024 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -86,132 +86,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 11.
  [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(2,2,2)(0,0,0)[0] intercept   : AIC=-14614.840, Time=1.17 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(0,2,0)(0,0,0)[0] intercept   : AIC=-14614.126, Time=0.51 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(1,2,0)(0,0,0)[0] intercept   : AIC=-14619.359, Time=0.34 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(0,2,1)(0,0,0)[0] intercept   : AIC=-14619.441, Time=0.35 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(0,2,0)(0,0,0)[0]             : AIC=-14616.124, Time=0.24 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(1,2,1)(0,0,0)[0] intercept   : AIC=-14617.515, Time=0.66 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(0,2,2)(0,0,0)[0] intercept   : AIC=-14617.494, Time=0.61 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(1,2,2)(0,0,0)[0] intercept   : AIC=-14615.679, Time=0.87 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(0,2,1)(0,0,0)[0]             : AIC=-14621.441, Time=0.44 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(1,2,1)(0,0,0)[0]             : AIC=-14619.515, Time=0.41 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(0,2,2)(0,0,0)[0]             : AIC=-14619.495, Time=0.39 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(1,2,0)(0,0,0)[0]             : AIC=-14621.358, Time=0.12 sec[] 
- []
-
-
-Overfull \hbox (23.7252pt too wide) in paragraph at lines 81--81
-[] \OT1/cmtt/m/n/12 ARIMA(1,2,2)(0,0,0)[0]             : AIC=-14617.680, Time=0.37 sec[] 
- []
-
-<../images/rolling_average.pdf, id=15, 1076.82304pt x 498.663pt>
-File: ../images/rolling_average.pdf Graphic file (type pdf)
-<use ../images/rolling_average.pdf>
-Package pdftex.def Info: ../images/rolling_average.pdf  used on input line 83.
-(pdftex.def)             Requested size: 390.0pt x 180.59901pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 83--84
-[][] 
- []
-
-
-Overfull \hbox (5.57922pt too wide) in paragraph at lines 86--90
-\OT1/cmr/m/n/12 trees on sub-sets of our data and got an out-of-bag score of 0.9999427215159137,
- []
-
-[3 <../images/rolling_average.pdf>]
-<../images/random_forest_regressor.pdf, id=23, 547.04375pt x 410.53375pt>
-File: ../images/random_forest_regressor.pdf Graphic file (type pdf)
-<use ../images/random_forest_regressor.pdf>
-Package pdftex.def Info: ../images/random_forest_regressor.pdf  used on input line 91.
-(pdftex.def)             Requested size: 390.0pt x 292.68373pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 91--92
-[][] 
- []
-
-<../images/decomposition.pdf, id=24, 994.21437pt x 562.60187pt>
-File: ../images/decomposition.pdf Graphic file (type pdf)
-<use ../images/decomposition.pdf>
-Package pdftex.def Info: ../images/decomposition.pdf  used on input line 101.
-(pdftex.def)             Requested size: 390.0pt x 220.69295pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 101--102
-[][] 
- []
-
-[4 <../images/random_forest_regressor.pdf>]
-<../images/ARIMA-Coke.pdf, id=32, 720.53192pt x 393.87149pt>
-File: ../images/ARIMA-Coke.pdf Graphic file (type pdf)
-<use ../images/ARIMA-Coke.pdf>
-Package pdftex.def Info: ../images/ARIMA-Coke.pdf  used on input line 118.
-(pdftex.def)             Requested size: 390.0pt x 213.19827pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 118--119
-[][] 
- []
-
-[5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <../images/decomposition.pdf>] [6 <../images/ARIMA-Coke.pdf>] [7] (./draft_port_project.aux) ) 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] (./draft_port_project.aux) ) 
 Here is how much of TeX's memory you used:
- 1324 strings out of 476025
- 22843 string characters out of 5790018
- 1857388 words of memory out of 5000000
- 21811 multiletter control sequences out of 15000+600000
- 515824 words of font info for 44 fonts, out of 8000000 for 9000
+ 445 strings out of 476025
+ 8727 string characters out of 5790018
+ 1856388 words of memory out of 5000000
+ 20973 multiletter control sequences out of 15000+600000
+ 515487 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,804b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on draft_port_project.pdf (7 pages, 991450 bytes).
+ 33i,6n,38p,804b,194s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on draft_port_project.pdf (4 pages, 86397 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
