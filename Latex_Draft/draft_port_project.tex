@@ -40,11 +40,26 @@ and deleted the original column.
 
 \section{Results}
 
-\subsection{ARMIA}
+\subsection{ARMIA Forcast}
 
-\subsection{VARMAX}
+We wanted to see if an ARIMA model could accurately predict the 100 days into the future. Because stock prices fluxuate through the day we decided to look at opening prices, closing prices, the high for that day and the low for that day. Because we wanted to look at each of these different prices indvidually we were able to use the ARIMA model from statsmodels.\par
+*Insert Graphs here*\par
+When trying to predict the last 100 days of 2016 we found that the ARIMA model was not accurately able to capture the fluxating prices of each day. Our model failed to capture the peaks and valleys and rather gave us a very linear prediction. Looking at all four different types of prices yielded very similar results neglecting the ups and downs that come from each day.
+
+\subsection{Random Forests}
+
+\subsection{Time Series Decomposition of Closing Prices}
+
+Because prices of stocks fluxuate so much we decided to use a seasonal of prices to break down the data. It revealed the trend line as well as the seasonal periodic graph as well as the residual noise. We found this to be a good method to break down the data because stock prices are slightly periodic through the day and are definetly not perfectly linear and so this allowed us to notice trends in our data and see how it changes over time.
+
+\subsection{Taylor's Stuff}
 
 \section{Analysis}
+
+\subsection{ARIMA}
+
+\subsection{Random Forests}
+
 
 \section{Ethical Implications}
 
