@@ -1,8 +1,8 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
 
-\title{Coca-Cola Stock Forecasting using ARMA Model}
+\title{Forcasting Frenzy: Machine Learning's Wild Ride on Wall Street}
 
 \author{Zach Joachim, Taylor Jones, Trevor Wai, Carson Watkin}
 
@@ -11,19 +11,38 @@
 \maketitle
 
 \begin{abstract}
- The goal of this paper is to build a model to forcast stock prices and profits of the Coco-Cola Company. Using an Autoregressive Integrated Moving Average (ARIMA) model to create this forcast. Stock prices tend to follow trends during certain periods of time. We attempt to use this data to demonstrate that this data can be used to create reasonable predictions of the behavior of stock prices.\dots
+    % Do this last
+    The goal of this paper is to build a model to forcast stock prices and profits of the Coco-Cola Company. 
+    Using an Autoregressive Integrated Moving Average (ARIMA) model to create this forcast. 
+    Stock prices tend to follow trends during certain periods of time. 
+    We attempt to use this data to demonstrate that this data can be used to create reasonable predictions of the behavior of stock prices.\dots
  \end{abstract}
 
 \section{Problem Statement and Motivation}
 
-Stock forecasting is vital for a company that wants to be successfull and profitable. It helps companies 
-with financial planning, allowing companies to allocate resources efficiently and make imformed decisions 
-about investments and expenditures. It allows companies to identify and mitigate risks associated with a 
-volitile market. Finally, along with many other things, forecasting provides a benchmark for the company's 
-actual performance to be measured against. By comparing the forecasted stock prices with the actual prices, 
-companies can evaluate the effectiveness of their strategies and operations.\par
-Clearly the ability to forecast stock prices and other important quantities is of great use and interest to 
-companies everywhere.
+Stock forecasting is vital for a company that wants to be successful and profitable. It helps companies 
+with financial planning, allowing them to allocate resources efficiently and make informed decisions 
+about investments and expenditures. It allows companies to identify and mitigate risks associated with 
+a volatile market. Finally, along with many other things, forecasting provides a benchmark for the 
+company's actual performance to be measured against. By comparing the forecasted stock prices with the 
+actual prices, companies can evaluate the effectiveness of their strategies and operations.\par
+Clearly, the ability to forecast stock prices and other important quantities is of great use and interest 
+to companies everywhere. We will attempt to find the best method of forecasting stock prices that doesn't 
+suffer from under- or over-fitting. We will try to predict the trendline the stock prices will follow over 
+one year after training on the previous 10 years of data. This provides better information for companies 
+that wish to analyze potential for growth rather than day traders who are trying to predict prices within 
+a shorter window.\par
+With the amount of money in the stock market, there have been many attempts to forecast stock prices. There 
+are two main methods for stock analysis: fundamental analysis and technical analysis[citation]. Fundamental 
+analysis is attempting to measure stock prices based on a company's intrinsic value. Technical analysis is 
+attempting to measure stock prices based on stock market activity. Our project will focus on a technical 
+analysis approach. In recent years, many have used neural networks; however, neural networks do not forecast 
+prices; rather, they "uncover opportunities" [add citation here]. Neural networks are currently being used to 
+help find good investment opportunities. Our project, not only does not use a neural network but also attempts 
+to predict the growth of a company's stock value, price, rather than investment opportunities.\par
+Ideally, our project will be able to predict a projected trendline for a company. Thus, they can see how they are 
+projected to perform based on previous performance, so they will know if they have changes that need to be made.
+
 
 \section{Data}
 
@@ -39,6 +58,39 @@ YYYY-MM-DD HH:MM:SS-UTC\@. For the purposes of our analysis, we only needed the 
 so what we needed to do was delete part of the index that gave the time. To do this, we stripped the index 
 into its list of strings and only kept the part that gave the date, we made this into a new column called \texttt{df['date']}, 
 and deleted the original column.
+
+(Come back to this and talk about initial vs data we used\dots)
+
+\section{Methods}
+
+\subsection{ARIMA Model}
+
+We decided to use an ARIMA model becasue we wanted to make future predictions based on past values. These models are 
+great at making future trend predictions from time series data because they are able to take the moving average of 
+the previous data points and use an autoregressive model to predict what the next data point. We chose an ARIMA model 
+over an ARMA model because ARIMA models can take nonstationary time series and make the data stationary by differencing. 
+Stock prices are nonstationary because they fluctuate with time; they reveal trends, seasonality, and grow at increasing 
+rates over time. 
+
+\subsection{Random Forest}
+
+In researching this project, we stumbled on a paper where Chinese machine learning engineers were able to use a random 
+forest to make effective prediction on Chinese stock market prices [citation]. We decided that this would be a fun experiment 
+to see if their results were replicable on the United States stock market. Random forests make sense \dots
+
+(Feature Engineering from Zach?)
+
+\subsection{Kalman Filtering*}
+
+
+
+\subsection{SVM} [Look up what this is]
+
+
+
+\subsection{KNN}
+
+
 
 \section{Results}
 
@@ -126,9 +178,20 @@ impact that the noise in the data would have on the ARIMA model.
 
 \section{Ethical Implications}
 
-The primary ethical concern of our project is the application of our analysis. Individuals wanting to manipulate the stock market would be able to use our model as their evidence to artificially manipulate supply and demand. This interferes with the free and fair operation of the stock market and is illegal in the United States. An example of how manipulators can use our analysis to affect the market is through stock bashing. Our analysis could predict the fall of a stock price and then perpetrators can use this as evidence for stock bashing or convincing the public that a stock price is worth less. Therefore allowing them to purchase the stock at a cheaper price to try and later turn a profit. \par
-Therefore we should add a disclaimer in our project that all of the analysis and predictions created are simply models and not prophecies of events to come. Therefore people understand that our analysis is simply trying to predict how the stock prices are going to fluxuate and this can simply be a factor in their buying and selling of shares.
+The primary ethical concern of our project is the application of our analysis. Individuals wanting to manipulate the 
+stock market would be able to use our model as their evidence to artificially manipulate supply and demand. This 
+interferes with the free and fair operation of the stock market and is illegal in the United States. An example of 
+how manipulators can use our analysis to affect the market is through stock bashing. Our analysis could predict the 
+fall of a stock price and then perpetrators can use this as evidence for stock bashing or convincing the public that a 
+stock price is worth less. Therefore allowing them to purchase the stock at a cheaper price to try and later turn a profit. \par
+
+Therefore we should add a disclaimer in our project that all of the analysis and predictions created are simply models and not prophecies of events to come. 
+Therefore people understand that our analysis is simply trying to predict how the stock prices are going to fluctuate and this can simply be a factor in 
+their buying and selling of shares.
 \section{Conclusion}
-Overall, the traditional time-series model (ARIMA) that we expected to perform well with our data did not predict the future price of stocks accurately. The predictions seemed to be very sensitive to the behavior just before predicting. This could be due to the volatility of stocks and the lack of a clear period to base our models on.\par
+Overall, the traditional time-series model (ARIMA) that we expected to perform well with our data did not predict the future price of stocks accurately. 
+The predictions seemed to be very sensitive to the behavior just before predicting. 
+This could be due to the volatility of stocks and the lack of a clear period to base our models on.\par
+
 On the other hand, the random forest regressor model tended to perform really well, with error in the estimates being really low. We don't know why this is.
 \end{document}
